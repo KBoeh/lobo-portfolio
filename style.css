@@ -155,19 +155,27 @@ body {
     justify-content: space-between;
     /* flex-grow: 1; */
     color: #FFFFFF;
-    font-family: 'Marzo', sans-serif;
+    
     gap: 28px;
-    /* height: 500px; */
 }
 
 .land-container h1 {
+    font-family: 'Marzo', sans-serif;
     font-size: 36px;
-    margin: 104px 0 4px 16px;
+    margin: 160px 0 4px 16px;
     letter-spacing: 0.1em;
+    line-height: 89.98%;
+    /* font-style: normal; */
+    /* font-weight: 400; */
 }
 
 .land-container h3 {
     font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
     margin: 0 0 0 16px;
 }
 
@@ -237,16 +245,14 @@ body {
     font-size: 24px;
     letter-spacing: 0.1em;
     text-align: left;
-    margin: 84px 0 16px 16px;
+    margin: 84px 0 24px 16px;
 }
 
 .about-info {
-    /* display: flex; */
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    /* font-style: normal; */
+    font-size: 16px;
+    font-style: normal;
     font-weight: 300;
-    line-height: 16px;
     line-height: 120%;
     text-align: left;
     color: #003B6F;
@@ -255,17 +261,25 @@ body {
 
 .text-img {
     display: flex;
+    /* margin-bottom: 32px; */
+}
+
+.text-img img {
+    width: 200px;
+    height: 233px;
+    border-radius: 5px 0px 0px 5px;
+    margin-bottom: 16px;
 }
 
 .resume-container {
     display: flex;
     justify-content: center;
-    
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     line-height: 27px;
     text-decoration: none;
     gap: 16px;
+    margin-top: 32px;
 }
 
 .resume-container a {
@@ -279,7 +293,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 16px 0 59px 0;
+    margin: 16px 0 80px 0;
 }
 
 .resume {
@@ -310,7 +324,7 @@ body {
 
 .email-container h2 {
     font-family: 'Marzo', sans-serif;
-    margin: 32px 0 32px 16px;
+    margin: 96px 0 32px 16px;
 }
 
 .email-form {
