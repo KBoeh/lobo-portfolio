@@ -100,9 +100,9 @@ body {
     margin-right: 16px;
 }
 
-.hamB:hover .line{
+/* .hamB:hover .line{
     background: #A33E94;
-}
+} */
 
 .line {
     width: 30px;
@@ -245,7 +245,7 @@ body {
     font-size: 24px;
     letter-spacing: 0.1em;
     text-align: left;
-    margin: 84px 0 24px 16px;
+    margin: 84px 0 24px 0;
 }
 
 .about-info {
@@ -264,11 +264,21 @@ body {
     /* margin-bottom: 32px; */
 }
 
+.text-img p {
+    width: 152px;
+    height: 209px;
+}
+
 .text-img img {
     width: 200px;
     height: 233px;
     border-radius: 5px 0px 0px 5px;
     margin-bottom: 16px;
+}
+
+.about-bottom {
+    width: 344px;
+    height: 57px;
 }
 
 .resume-container {
