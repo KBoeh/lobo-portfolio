@@ -22,67 +22,92 @@
         </div>
 
         <ul class="nav-links">
-            <li class="close">Close</li>
             <li><a href="#project-link">Work <img class="nav-icons" src="img/Work.png" alt="breifcase icon"></a></li>
             <li><a href="#about-link">About <img class="nav-icons" src="img/About.png"
                         alt="paper with exclamation point icon"></a></li>
             <li><a href="#contact-link">Contact <img class="nav-icons" src="img/Contact.png" alt="email icon"></a></li>
+            <li><a href="#">Resume <img class="nav-icons" src="img/Resume.png" alt="email icon"></a></li>
         </ul>
     </nav>
 
     <div class="overlay"></div>
 
-    <div class="land-container">
+    <div class="land-container ">
         <div>
-            <h1>Lorraine <br> Boehringer</h1>
+            <h1>Lorraine Boehringer</h1>
             <h3>UX/UI Designer</h3>
         </div>
         <img class="lor-outline" src="img/LG.png" alt="drawing of Lorraine">
     </div>
 
-    <div class="project-container">
-        <div class="project-img">
+    <!-- mobile version of project container -->
+    <div class="project-container" id="project-link">
+        <a href="#" class="project-img">
             <img src="img/Rectangle 3.png" alt="">
             <p>World Citizen Charity App Design</p>
-        </div>
-        <div class="project-img">
+        </a>
+        <a href="#" class="project-img proj-2">
             <img src="img/Rectangle 4.png" alt="">
             <p>Social Media Site For Tech Enthusiasts</p>
-        </div>
-        <div class="project-img">
+        </a>
+        <a href="#" class="project-img proj-3">
             <img src="img/Rectangle 5.png" alt="">
             <p>Antique Sales Website Design</p>
+        </a>
+    </div>
+
+    <!-- desktop version of project container -->
+    <div class="project-container-dt" id="project-link">
+        <div class="project-img-dt pdt-1">
+            <img class="top-bot-img" src="img/Rectangle 3.png" alt="">
+            <div class="project-dt-text">
+                <p>World Citizen Charity App Design</p>
+                <a class="read-button" href="">READ MORE</a>
+            </div>
+        </div>
+        <div class="project-img-dt pdt-2">
+            <div class="project-dt-text">
+                <p>Social Media Site For Tech Enthusiasts</p>
+                <a class="read-button" href="">READ MORE</a>
+            </div>
+            <img class="mid-img" src="img/Rectangle 4.png" alt="">
+        </div>
+        <div class="project-img-dt pdt-3">
+            <img class="top-bot-img" src="img/Rectangle 5.png" alt="">
+            <div class="project-dt-text">
+                <p>Antique Sales Website Design</p>
+                <a class="read-button" href="">READ MORE</a>
+            </div>
         </div>
     </div>
 
-    <div class="about-container">
+    <div class="about-container" id="about-link">
         <div class="about-info">
-            <h2>Hello.</h2>
-            <div class="text-img">
-                <p>I’m Lorraine. I found my way into design unconventionally. After years as an educator, I began
-                    teaching
-                    myself basic design. I am hooked to the craft and have been on a journey ever since. I am currently
-                    continuing my design training through Reskill Americans.
-                </p>
-                <img src="img/LB Pic.png" alt="Lorraine">
-            </div>
-
-            <p class="about-bottom">
+            <h2 class="hello">Hello.</h2>
+            <p class="p1">I’m Lorraine. I found my way into design unconventionally. After years as an educator, I
+                began
+                teaching
+                myself basic design. I am hooked to the craft and have been on a journey ever since. I am currently
+                continuing my design training through Reskill Americans.
+            </p>
+            <p class="p2">
                 I am fascinated with all aspects of design, especially visual design. I enjoy expressing my creativity
                 through typography, photography, and digital art.
             </p>
-        </div>
-        <div class="resume-container">
-            <a href="#">
-                <div class="resume-work resume">RESUME</div>
-            </a>
-            <a href="#">
-                <div class="resume-work work">OTHER WORK</div>
-            </a>
+            <img class="mobile-pic" src="img/LB Pic M.png" alt="Lorraine">
+            <img class="desk-pic" src="img/LB Pic D.png" alt="Lorraine">
+            <div class="resume-container">
+                <a href="#">
+                    <div class="resume-work resume">RESUME</div>
+                </a>
+                <a href="#">
+                    <div class="resume-work work">OTHER WORK</div>
+                </a>
+            </div>
         </div>
     </div>
 
-    <div class="email-container">
+    <div class="email-container" id="contact-link">
         <h2>GET IN TOUCH.</h2>
         <form class="email-form" action="https://formsubmit.co/lboehringer10@gmail.com" method="POST">
             <label for="name">Name</label>
@@ -91,8 +116,7 @@
             <input class="nameEmail" id="email" type="email" name="email" placeholder="">
             <label for="message">Message</label>
             <textarea class="message-box" id="message" rows="5" cols="60" name="message" placeholder=""></textarea>
-            <input type="hidden" name="_subject" value="New submission!">
-            <!-- <input type="email" name="email" required> -->
+            <input type="hidden" name="_subject" value="Lorraine's Portfolio">
             <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
             <button type="submit">Send</button>
         </form>

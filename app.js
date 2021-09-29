@@ -5,11 +5,14 @@ const links = document.querySelectorAll(".nav-links li");
 const email = document.querySelectorAll(".fa-envelope, .fa-times-circle");
 const eContainer = document.querySelector(".email-container");
 
-// toggle for ham button and fade effect for links within drop-down menu
+
 // activates the listener when a link is clicked within the dropdown menu
 hamburger.forEach((hamburger) => {
     hamburger.addEventListener("click", () => {
         navLinks.classList.toggle("open");
+        //toggles hamB transform
+        document.body.classList.toggle("open");
+        // toggle for ham button and fade effect for links within drop-down menu
         links.forEach(link => {
             link.classList.toggle("fade");
         });
@@ -23,19 +26,6 @@ email.forEach((email) => {
 
     })
 })
-
-
-// const navToggle = document.querySelector('.nav__toggle');
-
-// navToggle.addEventListener('click', () => {
-//     document.body.classList.toggle('nav-open');
-// });
-
-const navToggle = document.querySelector('.hamB');
-
-navToggle.addEventListener('click', () => {
-    document.body.classList.toggle('open');
-});
 
 
 
