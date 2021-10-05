@@ -1,3 +1,3 @@
 # lobo-portfolio
-UI-UX Designer Portfolio
-Under development...stay tuned
+UI-UX Designer Portfolio <br>
+Under development...stay tuned.
