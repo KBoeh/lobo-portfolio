@@ -61,7 +61,7 @@ a {
     width: 80%;
     clip-path: inset(0% 0% 0% 100%);
     -webkit-clip-path: inset(0% 0% 0% 100%);
-    transition: all 1s ease-out;
+    transition: all .5s ease-out;
     z-index: 3;
 }
 
@@ -895,13 +895,21 @@ footer {
 }
 
 @media (min-width: 1440px) {
+    .land-container {
+        height: 840px;
+    }
+
     .land-container h1 {
-        margin: 332px 0 28px 59px;
+        margin: 420px 0 28px 59px;
         font-size: 68px;
     }
     
     .land-container h2 {
         font-size: 36px;
+    }
+
+    .project-container {
+        padding-bottom: 244px;
     }
     
     .project-img {
@@ -979,7 +987,7 @@ footer {
         font-size: 64px;
         line-height: 102.48%;
         letter-spacing: 0.05em;
-        margin: 224px 0 60px 0;
+        margin: 20px 0 60px 0;
     }
     
     .p1 {
