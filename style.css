@@ -666,15 +666,14 @@ footer {
     .land-container h2 {
         font-size: 18px;
         margin-left: 59px;
-        font-family: 'Marzo', sans-serif;
-        font-weight: normal;
-        font-size: 26px;
-        line-height: 26px;
+        font-size: 36px;
+        line-height: 32px;
+        letter-spacing: 0.1em;
     }
 
     .lor-outline {
-        width: 515px;
-        margin-top: 280px;
+        width: 400px;
+        margin-top: 150px;
     }
 
     .project-img {
@@ -896,16 +895,21 @@ footer {
 
 @media (min-width: 1440px) {
     .land-container {
-        height: 840px;
+        height: 750px;
     }
 
     .land-container h1 {
-        margin: 420px 0 28px 59px;
+        margin: 300px 0 28px 59px;
         font-size: 68px;
     }
     
     .land-container h2 {
         font-size: 36px;
+    }
+
+    .lor-outline {
+        width: 500px;
+        margin-top: 0;
     }
 
     .project-container {
@@ -1026,7 +1030,7 @@ footer {
         font-weight: bolder;
         font-size: 64px;
         line-height: 74px;
-        margin: 80px 0 124px 80px;
+        margin: 80px 0 44px 80px;
     }
     
     .email-form input {
