@@ -417,7 +417,6 @@ footer {
 .foot-img-container {
     display: flex;
     align-items: center;
-    gap: 16px;
     margin-right: 11px;
 }
 
@@ -538,6 +537,7 @@ footer {
 
 .works {
     padding: 60px 8px 8px 8px;
+    
 }
 
 .works-heading {
@@ -1055,7 +1055,6 @@ footer {
     }
     
     .foot-img-container {
-        gap: 24px;
         margin-right: 20px;
     }
 
@@ -1092,5 +1091,9 @@ footer {
     .kids-img-container img{
         padding: 0;
         width: 659px;
+    }
+
+    .works img {
+        align-self: center;
     }
 }
